@@ -2,7 +2,7 @@ $light-blue:#2490d1;
 $search-and-content-bg:#e1e7ef;
 
 *{
-    // opacity: .89;
+    opacity: .89;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -32,7 +32,6 @@ html,body{
     color: white;
     background-color: $light-blue;
     height: 100%;
-    outline: red solid 1px;
     font-weight: bold;
     &__{
         &heading{
@@ -73,4 +72,9 @@ html,body{
         }
         }
     }
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 10.2rem auto;
 }
