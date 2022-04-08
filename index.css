@@ -1,5 +1,4 @@
 * {
-  opacity: 0.89;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -9,7 +8,6 @@
 }
 
 body {
-  background-image: url("./dashboard-project.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -131,7 +129,6 @@ button {
   display: grid;
   -ms-grid-rows: 10.2rem auto;
       grid-template-rows: 10.2rem auto;
-  row-gap: 2rem;
 }
 
 .search {
@@ -265,17 +262,16 @@ button {
       grid-template-columns: 2.6fr 1fr;
   -ms-grid-rows: 1fr 1.05fr;
       grid-template-rows: 1fr 1.05fr;
+  padding-top: 2rem;
 }
 
 .main-area__area-title {
   font-weight: bold;
   font-size: 1.1rem;
-  background-color: black;
   margin-bottom: 0.7rem;
 }
 
 .main-area__project-area {
-  background-color: red;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -288,7 +284,6 @@ button {
 }
 
 .main-area__announce-area {
-  background-color: green;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
@@ -297,11 +292,76 @@ button {
 }
 
 .main-area__trend-area {
-  background-color: blue;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 2/2/3/3;
+}
+
+.project-field {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  -ms-grid-columns: (minmax(14rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-auto-rows: 12.5rem;
+  padding: 0 1rem;
+  grid-gap: 1.566rem;
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 10px;
+  border-left: solid #efb33b 0.5rem;
+  padding: 2.1rem 1.4rem 1.6rem 1.3rem;
+  background-color: white;
+}
+
+.project > div {
+  height: 100%;
+  overflow: hidden;
+}
+
+.project__title {
+  font-size: 0.95rem;
+}
+
+.project__para {
+  font-size: 0.92rem;
+  height: 100%;
+}
+
+.project__button-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  gap: 1.5rem;
+}
+
+.project__button--rotate {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.project__button--rotate:hover, .project__button--rotate:focus {
+  -webkit-transform: rotate(-90deg) scale(1.04);
+          transform: rotate(-90deg) scale(1.04);
 }
 /*# sourceMappingURL=index.css.map */
