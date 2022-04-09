@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin DashBoard</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style/index.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
@@ -68,20 +68,28 @@
               id=""
               class="shadow-box search__box"
             /><button class="shadow-text search__bell material-icons">
-              notifications_active</button
-            ><img
-              src="./rachelps_Cheeky_Monkey.svg"
-              alt="profile picture"
-              class="search__profile-pic"
-            /><span class="search__profile-name">Morgan Oakley</span>
+              notifications_active
+            </button>
+            <div class="search__profile-pic profile-icon">
+              <img
+                src="./img/rachelps_Cheeky_Monkey.svg"
+                alt="profile picture"
+                class="profile-icon__img"
+              />
+            </div>
+            <span class="search__profile-name">Morgan Oakley</span>
           </div>
           <div class="search__bottom">
             <div class="profile-area">
-              <img
-                src="./rachelps_Cheeky_Monkey.svg"
-                alt="profile picture"
-                class="profile-area__pic"
-              />
+              <div class="profile-area__pic">
+                <div class="profile-icon profile-icon--large">
+                  <img
+                    src="./img/rachelps_Cheeky_Monkey.svg"
+                    alt="profile picture"
+                    class="profile-icon__img"
+                  />
+                </div>
+              </div>
               <div class="profile-area__welcome">Hi there,</div>
               <div class="profile-area__name">Morgan Oakley (@morgan)</div>
             </div>
@@ -276,6 +284,60 @@
           </div>
           <div class="main-area__trend-area">
             <h1 class="main-area__area-title">Trending</h1>
+            <div class="trend-field">
+              <span class="trend-field__item">
+                <div class="trend-field__pic">
+                  <div class="profile-icon profile-icon--blue">
+                    <img
+                      src="./img/Frog01.svg"
+                      alt="profile pic"
+                      class="profile-icon__img"
+                    />
+                  </div>
+                </div>
+                <div class="trend-field__name">@tegan</div>
+                <div class="trend-field__description">World Peace Builder</div>
+              </span>
+              <span class="trend-field__item">
+                <div class="trend-field__pic">
+                  <div class="profile-icon">
+                    <img
+                      src="./img/rachelps_Cheeky_Monkey.svg"
+                      alt="profile pic"
+                      class="profile-icon__img"
+                    />
+                  </div>
+                </div>
+                <div class="trend-field__name">@morgan</div>
+                <div class="trend-field__description">Super Cool Project</div>
+              </span>
+              <span class="trend-field__item">
+                <div class="trend-field__pic">
+                  <div class="profile-icon profile-icon--gray">
+                    <img
+                      src="./img/aereo_militare.svg"
+                      alt="profile pic"
+                      class="profile-icon__img"
+                    />
+                  </div>
+                </div>
+                <div class="trend-field__name">@kendall</div>
+                <div class="trend-field__description">Life Changing App</div>
+              </span>
+              <span class="trend-field__item">
+                <div class="trend-field__pic">
+                  <div class="profile-icon profile-icon--pink">
+                    <img
+                      src="./img/dagobert83_female_user_icon.svg"
+                      alt="profile pic"
+                      class="profile-icon__img"
+                    />
+                  </div>
+                </div>
+                <div class="trend-field__name">@alex</div>
+                <div class="trend-field__description">No Traffic Maker</div>
+              </span>
+            </div>
           </div>
         </div>
       </div>
