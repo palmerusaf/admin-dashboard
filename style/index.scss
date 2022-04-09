@@ -12,11 +12,11 @@ $shadow-text-and-box: 2px 2px 2px rgba(0, 0, 0, 0.295);
   box-sizing: border-box;
 }
 
-// body {
-//   background-image: url("../img/dashboard-project.png");
-//   background-size: contain;
-//   background-repeat: no-repeat;
-// }
+body {
+  // background-image: url("../img/dashboard-project.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 html,
 body {
@@ -303,7 +303,7 @@ button {
 
 .announce-field {
   display: grid;
-  grid-template-columns: 12.8rem;
+  grid-template-columns: 0.81fr;
   grid-auto-rows: 1fr 1px;
   grid-row-gap: 0.9rem;
   justify-content: center;
@@ -318,6 +318,7 @@ button {
 
 .announcement {
   margin: 0 0.37rem;
+  overflow: hidden;
   &__title {
     font-size: 0.79rem;
   }
