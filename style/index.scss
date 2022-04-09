@@ -3,7 +3,7 @@ $search-and-content-bg: #e1e7ef;
 $shadow-text-and-box: 2px 2px 2px rgba(0, 0, 0, 0.295);
 
 * {
-  opacity: 0.89;
+  // opacity: 0.89;
   // opacity: 0;
   padding: 0;
   margin: 0;
@@ -338,8 +338,8 @@ button {
 
   background-color: white;
   border-radius: 10px;
-  width: 15.9375rem;
   height: 18.125rem;
+  margin-right: 2.1rem;
   padding: 0.9rem 0;
   padding-left: 1.5rem;
   &__item {

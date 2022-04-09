@@ -1,5 +1,4 @@
 * {
-  opacity: 0.89;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -447,8 +446,8 @@ button {
           flex-direction: column;
   background-color: white;
   border-radius: 10px;
-  width: 15.9375rem;
   height: 18.125rem;
+  margin-right: 2.1rem;
   padding: 0.9rem 0;
   padding-left: 1.5rem;
 }
