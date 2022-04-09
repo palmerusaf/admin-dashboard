@@ -160,7 +160,7 @@ button {
       padding: 0.4rem;
       text-indent: 0.7rem;
       margin-left: -0.56rem;
-      flex: .82;
+      flex: 0.82;
     }
 
     &bell {
@@ -199,7 +199,7 @@ button {
       grid-column: 1/2;
     }
     &welcome {
-      align-self: center;
+      align-self: end;
       grid-column: 2/3;
       font-size: 0.8rem;
     }

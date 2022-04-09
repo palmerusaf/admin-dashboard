@@ -192,9 +192,9 @@ button {
   padding: 0.4rem;
   text-indent: 0.7rem;
   margin-left: -0.56rem;
-  -webkit-box-flex: .82;
-      -ms-flex: .82;
-          flex: .82;
+  -webkit-box-flex: 0.82;
+      -ms-flex: 0.82;
+          flex: 0.82;
 }
 
 .search__bell {
@@ -246,9 +246,9 @@ button {
 }
 
 .profile-area__welcome {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
