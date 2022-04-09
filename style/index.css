@@ -182,10 +182,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.search__button {
-  margin-right: 1rem;
+  gap: 1.5625rem;
 }
 
 .search__box {
@@ -193,21 +190,23 @@ button {
   background-color: #e1e7ef;
   border-radius: 25px;
   padding: 0.4rem;
-  text-indent: 0.3rem;
-  width: 34.6rem;
+  text-indent: 0.7rem;
+  margin-left: -0.56rem;
+  -webkit-box-flex: .82;
+      -ms-flex: .82;
+          flex: .82;
 }
 
 .search__bell {
-  margin-left: 6.6rem;
-}
-
-.search__profile-pic {
-  margin-left: 1.84rem;
+  margin-left: auto;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .search__profile-name {
-  margin-left: 1.9rem;
   font-weight: bold;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .search__bottom {
@@ -460,7 +459,7 @@ button {
       grid-template-columns: 0.36fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  grid-row-gap: .3rem;
+  grid-row-gap: 0.3rem;
 }
 
 .trend-field__pic {
@@ -485,7 +484,7 @@ button {
       -ms-grid-row-align: end;
       align-self: end;
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .trend-field__description {
